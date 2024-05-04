@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0 ;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: rgb(40,40,40);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px 0px;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Border for all part */
+/* d{
+  border: 1px solid red;
+}
+footer{
+  border: 1px solid blue;
+}
+.main-section{
+  border: 1px solid black;
+}
+.left-dev{
+  border: 1px solid green;
+}
+.right-dev{
+  border: 1px solid green;
+} */
+
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background-color: rgb(18, 155, 155);
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(18, 155, 155);
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .logo{
+  font-weight: 700;
+  font-size: 30px;
+
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 30px;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.Search-bar{
+  display: flex;
+  gap: 30px;
+}
+
+input{
+  padding: 4px 10px;
+
+}
+
+.main-section{
+  display: flex;
+  align-items:center ;
+  justify-content:space-evenly;
+}
+
+.left-dev{
+  width: 40%;
+}
+
+.left-dev h1{
+  font-size: 30px;
+  margin-bottom:20px ;
+  font-weight: 700;
+}
+
+.left-dev h1 span{
+  color: rgb(18, 155, 155);
+  font-weight: 900;
+  font-size: 2.5 rem;
+}
+
+.left-dev p{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.left-dev p span{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(18, 155, 155);
+
+}
+
+
+
+.right-dev{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-dev button{
+   font-size: 20px;
+}
+.right-dev-button{
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.right-dev img{
+  margin-bottom: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+footer p{
+  font-weight: 600;
+}
+
+footer ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}

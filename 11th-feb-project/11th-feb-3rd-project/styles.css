@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: black;
+}
+
+body{
+  background-color: #f0f4f5;
+  width: 100vw;
+  overflow: hidden;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+/* Nav styling */
+nav{
+  padding: 0 5%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img{
+  width: 150px;
+}
+
+/* Nav menu styling */
+nav ul{
+  display: flex;
+  align-items: center;
+  gap:50px;
+  margin-right: 50px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+nav ul li:first-child a{
+  color: #20bc7e;
+  font-weight: 700;
+}
+
+/* Main styling */
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+main section{
+  width: 50%;
+  height: 85vh;
+}
+
+/* Left section styling */
+.left-section{
+  position: relative;
+  margin-left: 5%;
+}
+
+.topAngle{
+  width: 25px;
+}
+
+.left-section h1{
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.left-section p{
+  font-size: 16px;
+  font: 400px;
+  margin: 25px 0;
+  color: rgb(124, 124, 124);
+}
+
+.stethoscope{
+  position: absolute;
+  width: 90%;
+  top: -20px;
+  right: -75px;
+  z-index: -1;
+}
+
+.mouse{
+  position: absolute;
+  width: 30px;
+  bottom: 80px;
+  right: -35px;
+}
+
+.bottomAngle{
+  position: absolute;
+  width: 25px;
+  right: 25px;
+}
+
+.left-section button{
+  padding: 15px 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #41D399;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: 2px solid #41D399;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.left-section button:hover{
+  background-color: #ffffff;
+  color: #41D399; 
+}
+
+/* Right section stylig */
+
+.greenBox,
+.yellowBox{
+  position: absolute;
+  right: 0;
+}
+
+.greenBox{
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellowBox{
+  width: 30%;
+  bottom: 50px;
+}
+
+.doctor{
+  position: absolute;
+  height: 90%;
+  right: 0;
+  bottom: 0;
+}

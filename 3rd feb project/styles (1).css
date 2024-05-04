@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+  color: #FFC233;
+}
+body{
+  background-image: url('/3rd feb project/images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Border */
+/* header{
+  border:1px solid aqua;
+}
+main{
+  border:1px solid blanchedalmond;
+}
+footer{
+  border:1px solid blueviolet;
+}
+button{
+  border: 1px solid black;
+} */
+
+/* Button */
+button{
+  background-color: #FF515F;
+  border: 2px solid #FF515F;
+  border-radius: 2px;
+  color: White;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 12px 25px;
+}
+
+button:hover{
+  background-color: white;
+  color: #FF515F;
+  border: 2px solid #FF515F;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+}
+
+nav img{
+  padding-left: 20px;
+  height: 45px;
+}
+
+nav ul{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+nav button{
+  font-size: 17px;
+  padding: 7px 25px;
+  margin-right: 40px;
+}
+
+.main-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+}
+
+.upper-sec{
+  width: 75%;
+  display: flex;
+}
+
+main h1{
+  font-weight: 900;
+  font-size: 80px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+footer img{
+  height: 130px;
+  float: right;
+  margin-right: 30px;
+}

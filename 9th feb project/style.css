@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+    body {
+        background-color: green;
+    }    
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-color: rgb(134, 69, 16);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(178, 252, 255);
+    }
+}
+
+@media (max-width: 525px) {
+    body {
+        background-color: rgb(219, 52, 52);
+    }
+}

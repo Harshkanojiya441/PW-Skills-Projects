@@ -1,0 +1,100 @@
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  color: black;
+}
+
+body{
+    background-color: #f0f4f5;
+    width: 100vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+  
+/* Nav styling */
+nav{
+  padding: 0 5%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img{
+  width: 150px;
+}
+
+/* Nav menu styling */
+nav ul{
+  display: flex;
+  align-items: center;
+  gap:50px;
+  margin-right: 50px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+/* Main */
+
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+main h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #20BC7E;
+    text-align: center;
+}
+
+main p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 40%;
+    text-align: center;
+}
+
+.cards-section{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #20BC7E;
+}
+
+.card h4{
+    font-size: 17px;
+    font-weight: 600;
+}
